@@ -1,0 +1,84 @@
+body{
+font-family: arrial;
+font-size: 17px;
+
+}
+
+#cerrar{
+text-align: right;
+
+
+}
+
+
+nav{
+   
+    height: 30px;
+    padding: 20px;
+}
+
+
+
+nav a{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: Times New Roman;
+    margin-right: 25px;
+    text-decoration: none;
+   
+}
+
+
+
+
+nav a:hover{
+    background-color: green;
+  
+}
+
+button{
+cursor: pointer;
+
+}
+
+#formulario{
+ width: 50%;
+ margin-left: 30%;
+
+}
+
+#formulario input{
+margin-bottom: 5px;
+
+
+
+}
+
+
+/* Este es nuestro diseño para los campos no válidos */
+input:invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+/* Este es el diseño para nuestros mensajes de error */
+.error {
+  width : 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
