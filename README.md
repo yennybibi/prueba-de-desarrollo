@@ -1,2 +1,2 @@
 # prueba-de-desarrollo
-Proyecto realizado con php y msqli,, desde cero.
+#Proyecto realizado con php y msqli,, desde cero.
